@@ -5,7 +5,7 @@ const authLogin =(body, callback) => {
   //request body
 const{ username, password}= body;
 
-db.query("SELECT *from user where username = ? and Password = ?",
+db.query("SELECT *from user where username = ? and password = ?",
 [username, password],
 function(err,result){
   if(err){

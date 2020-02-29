@@ -11,10 +11,7 @@ var Users = require('../model/user');
 router.post('/',async function(req,res){
   const {body} = req;
   Users.authLogin(body, function(err,result){
-    res.send({
-      result,
-      error: err
-    })
+    res.redirect('/darsbord')
   })
 })
 

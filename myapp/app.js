@@ -12,6 +12,7 @@ var registerRouter = require('./routes/register');
 var darsbordRouter = require('./routes/darsbord');
 var homeRouter = require('./routes/home');
 var inventoryRouter = require('./routes/inventory');
+var listRouter = require('./routes/list');
 
 
 
@@ -39,6 +40,7 @@ app.use('/register', registerRouter);
 app.use('/darsbord', darsbordRouter);
 app.use('/home', homeRouter);
 app.use('/inventory', inventoryRouter);
+app.use('/list', listRouter);
 
 
 

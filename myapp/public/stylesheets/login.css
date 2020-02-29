@@ -1,13 +1,14 @@
 body{
-  background-image: url('../images/latar.jpg');
+  background-image: url('../images/10.png');
   background-size: cover;
 }
 .input{
-    margin: 120px auto;
-    height: 350px;
-    width: 360px;
-    background-color: white;
+    margin: 150px auto;
+    height: 330px;
+    width: 370px;
+    background-color:#4169E1;
     padding:5px;
+    border-radius: 20px;
 }
 .form{
   padding: 40px;
@@ -20,7 +21,7 @@ body{
 }
 .input-button{
   height: 40px;
-  width:270px;
+  width:273px;
   background-color: blue;
   color:white;
 }
@@ -38,5 +39,9 @@ footer{
 position: absolute;
 bottom: 0;
 right: 0;
+}
 
+.form-control{
+  width:270px;
+  height: 40px;
 }

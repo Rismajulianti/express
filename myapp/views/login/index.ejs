@@ -6,12 +6,17 @@
         <center><h3>Register</h3><hr></center>
         <div class="form">
           <form action="http://localhost:3000/login" method="POST">
-          <input type="text" class='input-form' placeholder="username" name="username"><br><br>
-    <input type="password"class='input-form' placeholder="Password" name="password"><br><br><br><br>
+            <div class="form-group">
+    <label for="exampleInputEmail1">username</label><br><b>
+    <input type="text" name="username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+  </div><br>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label><br><b>
+    <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div><br><br>
     <button type="submit" class='input-button'>Register</button>
   </form>
     </div>
     </div>
-    <%- include('../layout/footer'); -%>
   </body>
 </html>
